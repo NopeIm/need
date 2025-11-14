@@ -1,0 +1,97 @@
+
+table {
+    font-size:24px;border:1px solid black;
+    border-collapse:collapse;
+}   
+td {
+    border:1px solid black;
+    text-align: center;
+    padding:10px;
+}
+th {
+    border:1px solid black;
+    text-align: center;
+    padding:10px;
+}
+ul {
+    list-style: disc;
+}
+div {
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  margin: 20px;
+}
+.block1 {
+  background-color: aquamarine;
+  transform: skew(20deg, 10deg)
+  perspective(400px);
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+}
+.zagolovor {
+        background-color: rgb(124, 73, 73);
+        color: white;
+     }
+.PS {
+    background-color: grey;
+    }
+.OP {
+        background-color: yellow;
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+.container a{
+    flex: 1;
+    display: block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.container a:hover{
+    background-color: #0056b3;
+} 
+.r{
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+     width: 250px;
+     background-color: #f0f0f0;
+     padding: 20px;
+     box-sizing: border-box;
+        }
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: bisque;
+ }
+ .item1 {
+    flex: 4;
+    padding: 5px;
+ }
+ .photo{
+        height: 850px;
+        flex: 2;
+        border-radius: 100%;
+        overflow: hidden;
+ }
+  .item2 {
+    text-align: center;
+    flex: 4;
+    padding: 5px;
+  }
